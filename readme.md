@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## WhoPlusYou API Test
+This project has four api links to get various results as described in test
+- /api/peoples/{city}
+- /api/cars/{street name}
+- /api/carOwner/{licence plate}
+- /api/address/{person name}
+
+There is migration data available to create table and seed some sample data which is added manually.
+- php artisan migrate
+- php artisan db:seed
+
+There is simple php unit test has been added for each api
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
